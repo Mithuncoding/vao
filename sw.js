@@ -1,4 +1,4 @@
-const VERSION = 'ab7f03c10c';
+const VERSION = 'c8267659a2';
 const SHELL = `vao-shell-${VERSION}`;
 const MEDIA = 'vao-media';
 const ASSETS = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/core.js', 'manifest.webmanifest',

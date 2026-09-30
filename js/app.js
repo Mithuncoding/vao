@@ -218,7 +218,7 @@ function Home(root) {
   const k = counts(all);
   const exam = EXAM - Date.now();
   root.append(h('section', { class: 'hero' },
-    h('div', { class: 'hero-top' }, h('span', null, 'VAO exam in'), h('span', { class: 'pill' }, 'Target 140+ / 200')),
+    h('div', { class: 'hero-top' }, h('span', null, 'VAO exam in'), h('span', { class: 'pill' }, 'Target 145 / 200')),
     h('div', { class: 'big' }, timeLeft(exam)),
     h('div', { class: 'hero-sub' }, 'Sun 4 Oct · Paper 1 10:30 · Paper 2 14:30'),
     PLAN[today()] ? h('div', { class: 'plan' }, h('b', null, 'Today: '), PLAN[today()]) : null));
